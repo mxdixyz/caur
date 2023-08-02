@@ -1,0 +1,36 @@
+caur - AUR Helper
+=================
+caur is a simple AUR Helper written in C.
+
+
+Installation
+============
+caur can be installed through the Arch User Repository (AUR)
+
+Manual Installation Instructions:
+---------------------------------
+The following dependencies are required:
+	• gcc
+	• glibc
+	• make
+	• libgit2
+
+Once dependencies are installed, run the following command in your shell compile and install (run as root): 
+"make install"
+
+Removal
+-------
+To uninstall, run (as root):
+ • Basic removal:
+	"pacman -R caur"
+
+ • Remove dependencies:
+	"pacman -Rncs caur"
+
+ • If compiled from source:
+	"make uninstall"
+
+
+Author
+======
+Madison Lynch <madi@mxdi.xyz>
